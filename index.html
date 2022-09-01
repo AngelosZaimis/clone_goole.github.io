@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="public/img/google.png">
+    <link rel="stylesheet" href="public/style.css">
+    <script src="public/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="links_container">
+            <ul>
+                <li><a href="https://www.google.com/gmail/about/">Gmail</a></li>
+                <li><a href="https://www.google.ch/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+                <li><button id="dots_menu" onclick="toggler()"><img  src="public/img/dots-menu.png" alt="menu_bar_icon"></button>
+                  <div id="hidden_bar">
+                    <div>
+                        <img src="public/img/icons8-google-contacts-48.png" alt="">
+                        <p>Account</p>
+                    </div>
+                    <div>
+                        <img src="public/img/icons8-google-48 (1).png" alt="">
+                        <p>Search</p>
+                    </div>
+                    <div>
+                        <img src="public/img/icons8-google-maps-48.png" alt="">
+                        <p>Maps</p>
+                    </div>
+                    <div>
+                        <img src="public/img/icons8-youtube-play-48.png" alt="">
+                        <p>Youtube</p>
+                    </div>
+                    <div>
+                        <img src="public/img/icons8-google-play-48.png" alt="">
+                        <p>Play</p>
+                    </div>
+                   <div>
+                    <img src="public/img/icons8-google-kalender-48.png" alt="">
+                    <p>News </p>
+                   </div>
+                  </div>
+                </li>
+                <li><a href="https://accounts.google.com/ServiceLogin/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="google_icon_container">
+        <div>
+            <img src="public/img/google_logo.png" alt="">
+        </div>
+    </div>
+    <div class="search_bar_container">
+        <div class="search_bar">
+            <div class="search_bar_items">
+                <div class="search_icon"><img src="public/img/search-interface-symbol.png" alt=""></div>
+            </div>
+            <div class="input_container">
+                <input type="text" >
+            </div>
+            <div class="micro_container">
+                <img src="public/img/7123011_google_mic_icon (1).png" alt="">
+            </div>
+        </div>
+        <div class="button_container">
+            <div class="buttons">
+                <div>
+                    <button>Google Search</button>
+                </div>
+                <div>
+                    <button>Google Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="different_languages_container">
+        <div class="languages">
+            <p>Google offered in: </p>
+            <ul>
+                <li><a href="https://www.google.com">Deutsch</a></li>
+                <li><a href="">Français</a></li>
+                <li><a href="">Italiano</a></li>
+                <li><a href="">Rumantsch</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_container">
+            <div class="town_container">
+                <p>Switzerland</p>
+            </div>
+            <div class="items_container">
+                <div class="list_container">
+                    <ul>
+                        <li><a href="https://about.google/?utm_source=google-CH&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                        <li><a href="https://ads.google.com/intl/en_ch/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                        <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+                    </ul>
+                </div>
+                <div class="carbon_container">
+                    <img src="public/img/download (1).png" alt="carbon_icon">
+                    <a href="">Carbon neutral since 2007</a>
+                </div>
+                <div class="privacy_list_container">
+                    <ul>
+                        <li><a href="https://policies.google.com/privacy?hl=en-CH&fg=1">Privacy</a></li>
+                        <li><a href="https://policies.google.com/terms?hl=en-CH&fg=1">Terms</a></li>
+                        <li><button onclick="settingsToggler()" id="settings_button" type="button">Settings</button>
+                              <div class="settings_hidden_bar" id="settings_hidden_bar">
+                                    <div><a href="">Search settings</a></div>
+                                    <div> <a href="">Advanced search</a></div>
+                                    <div><a href="">Your data in search</a></div>
+                                    <div> <a href="">Search history</a></div>
+                                    <div><a href="">Search help</a></div>
+                                    <span></span>
+                                    <div><a href="">Dark theme: Off</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
